@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground: #e4e4e7;
+  --background: #0a0a0a;
+  --border: #2e2e2e;
+  --primary: 199 100% 50%;
+}
+
+body {
+  @apply bg-zinc-950 text-electric-blue font-mono;
+  font-feature-settings: "ss01" on, "zero" on;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
